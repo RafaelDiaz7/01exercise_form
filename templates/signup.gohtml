@@ -15,8 +15,11 @@
         <input type="password" name="password" id="password">
         <input type="submit" value="Send">
     </form>
+    <!-- Aqui se intenta acceder a un valor nil cuando se ejecuta el template
+        y pasas nil como data, como pasa en el handler home.
+        Las instrucciones del tipo {{.}} deben ser eliminadas en estos casos.
     <div>
         <h2>{{.}}</h2>
-    </div>
+    </div> -->
 </body>
 </html>
